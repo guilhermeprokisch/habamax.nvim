@@ -19,19 +19,19 @@ A Neovim colorscheme ported from <a href="https://github.com/vim/colorschemes/bl
 
 ```vim
 Plug 'rktjmp/lush.nvim'
-Plug 'ntk148v/claudia.nvim'
+Plug 'guilhermeprokisch/claudia.nvim'
 ```
 
 - Using `packer`:
 
 ```lua
-use { "ntk148v/claudia.nvim", requires={ "rktjmp/lush.nvim" } }
+use { "guilhermeprokisch/claudia.nvim", requires={ "rktjmp/lush.nvim" } }
 ```
 
 - Using `lazy.nvim`:
 
 ```lua
-{ "ntk148v/claudia.nvim", dependencies={ "rktjmp/lush.nvim" } }
+{ "guilhermeprokisch/claudia.nvim", dependencies={ "rktjmp/lush.nvim" } }
 ```
 
 ## Usage
