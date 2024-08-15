@@ -1,6 +1,6 @@
 -- You probably always want to set this in your vim file
 vim.opt.background = 'dark'
-vim.g.colors_name = 'habamax.nvim'
+vim.g.colors_name = 'claudia.nvim'
 
 -- By setting our module to nil, we clear lua's cache,
 -- which means the require ahead will *always* occur.
@@ -14,8 +14,8 @@ vim.g.colors_name = 'habamax.nvim'
 --
 -- The performance impact of this call can be measured in the hundreds of
 -- *nanoseconds* and such could be considered "production safe".
-package.loaded['lush_theme.habamax'] = nil
+package.loaded['lush_theme.claudia'] = nil
 
 -- include our theme file and pass it to lush to apply
-require('lush')(require('lush_theme.habamax'))
+require('lush')(require('lush_theme.claudia'))
 

@@ -2,7 +2,7 @@
 
 # Habamax.nvim
 
-A Neovim colorscheme ported from <a href="https://github.com/vim/colorschemes/blob/master/colors/habamax.vim">Vim Habamax</a> colorscheme.
+A Neovim colorscheme ported from <a href="https://github.com/vim/colorschemes/blob/master/colors/claudia.vim">Vim Habamax</a> colorscheme.
 
 </div>
 
@@ -19,29 +19,29 @@ A Neovim colorscheme ported from <a href="https://github.com/vim/colorschemes/bl
 
 ```vim
 Plug 'rktjmp/lush.nvim'
-Plug 'ntk148v/habamax.nvim'
+Plug 'ntk148v/claudia.nvim'
 ```
 
 - Using `packer`:
 
 ```lua
-use { "ntk148v/habamax.nvim", requires={ "rktjmp/lush.nvim" } }
+use { "ntk148v/claudia.nvim", requires={ "rktjmp/lush.nvim" } }
 ```
 
 - Using `lazy.nvim`:
 
 ```lua
-{ "ntk148v/habamax.nvim", dependencies={ "rktjmp/lush.nvim" } }
+{ "ntk148v/claudia.nvim", dependencies={ "rktjmp/lush.nvim" } }
 ```
 
 ## Usage
 
 ```vim
-colorscheme habamax.nvim
+colorscheme claudia.nvim
 ```
 
 ```lua
-vim.cmd("colorscheme habamax.nvim")
+vim.cmd("colorscheme claudia.nvim")
 ```
 
 ## Contribution
